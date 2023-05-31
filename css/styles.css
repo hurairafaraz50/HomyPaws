@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fredoka;
+    color: #FF8210;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFE6CF;
+    padding: 30px 120px 30px 120px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+li{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+button{
+    padding : 12px 24px 12px 24px;
+    border-radius: 24px;
+    font-style: medium;
+    font-size: 13px;
+    color: white;
+    background-color: #FF8210;
+    border: none;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+.Home{
+    background-color: #FEFEFE;
+}
+img{
+    position: absolute;
+    width: 1440px;
+    height: 1670px;
+    left: 0px;
+    top: 2062px;
+    background: #FEFEFE;
+}
