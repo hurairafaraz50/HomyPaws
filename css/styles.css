@@ -52,6 +52,17 @@ nav button {
   height: 90vh;
   position: relative;
 }
+.paw-1{
+  position: absolute;
+  width: 40.48px;
+  height: 37.82px;
+  left: 490px;
+  top: 520px;
+  background: url(Paw.png);
+  transform: matrix(-0.95, -0.32, -0.32, 0.95, 0, 0);
+  transform: rotate(25deg);
+
+}
 
 .home-img {
   width: 600px;
@@ -101,6 +112,130 @@ nav button {
   width: 400px;
   border-radius: 15px;
   position: absolute;
-  right: 330px;
-  top: 240px;
+  right: 290px;
+  top: 160px;
 }
+.aboutus{
+  line-height: 2px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  
+}
+.box1{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #ffe6cf;
+  padding: 81px 152px 24px 81px;
+  
+}
+.vision p{
+  border-right: 1px solid #ff8210;
+  padding: 10px;
+  color: #222222;
+}
+
+.mission p{
+  padding: 10px;
+  color: #222222;
+}
+.about{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #ff8210;
+  font-size: 40px;
+}
+.aboutbtm{
+  padding-bottom: 10px;
+  color: #222222;
+}
+.paw-4{
+  position: absolute;
+  width: 40.48px;
+  height: 37.82px;
+  left: 88.47px;
+  top: 850px;
+  background: url(Paw.png);
+  transform: matrix(-0.95, -0.32, -0.32, 0.95, 0, 0);
+  transform: rotate(25deg);
+
+}
+.core-feature{
+  font-family: 'Fredoka';
+  line-height: 2px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #222222;
+  padding-top: 20px;
+}
+.core{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 40px;
+  color: #ff8210;
+}
+.core-feature p{
+  color: #222222;
+}
+.box2{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.personalize1{
+  position: absolute;
+  width: 378.6px;
+  height: 292px;
+  left: 120px;
+  top: 1350px;
+  border-radius: 16px;
+  background-color: #ffe6cf;
+  padding: 148px 24px 24px 24px;
+
+}
+.compassion{
+  position: absolute;
+  width: 378.6px;
+  height: 292px;
+  left:  calc(50% - 378.6px/2 + 0.3px);
+  top: 1350px;
+  border-radius: 16px;
+  background: #ff8210;
+  padding: 148px 24px 24px 24px;
+
+}
+.personalize2{
+  position: absolute;
+  width: 378.6px;
+  height: 292px;
+  left: 1200px;
+  top: 1350px;
+  border-radius: 16px;
+  background-color: #ffe6cf;
+  padding: 148px 24px 24px 24px;
+
+}
+.personalize1 h3{
+  color: #222222;
+}
+.personalize1 p{
+  color: #222222;
+}
+
+.compassion h3{
+  color: #fefefe;
+}
+.compassion p{
+  color: #fefefe;
+}
+.personalize2 h3{
+  color: #222222;
+}
+.personalize2 p{
+  color: #222222;
+}
+
