@@ -52,16 +52,13 @@ nav button {
   height: 90vh;
   position: relative;
 }
-.paw-1{
+.paw-1 {
   position: absolute;
   width: 40.48px;
   height: 37.82px;
   left: 490px;
-  top: 520px;
-  background: url(Paw.png);
-  transform: matrix(-0.95, -0.32, -0.32, 0.95, 0, 0);
+  top: 550px;
   transform: rotate(25deg);
-
 }
 
 .home-img {
@@ -115,127 +112,311 @@ nav button {
   right: 290px;
   top: 160px;
 }
-.aboutus{
+.aboutus {
   line-height: 2px;
   text-align: center;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
-  
+  padding: 80px 0;
 }
-.box1{
+.box1 {
   display: flex;
   text-align: center;
   align-items: center;
   background-color: #ffe6cf;
   padding: 81px 152px 24px 81px;
-  
 }
-.vision p{
+
+.vision p {
   border-right: 1px solid #ff8210;
   padding: 10px;
   color: #222222;
 }
 
-.mission p{
+.vission-img {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.vission-img h2 {
+  color: #222222;
+  margin-top: 4px;
+}
+
+.mission p {
   padding: 10px;
   color: #222222;
 }
-.about{
+.mission-img {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.mission-img h2 {
+  color: #222222;
+  margin-top: 4px;
+}
+.about {
   padding-bottom: 10px;
   padding-top: 10px;
   color: #ff8210;
   font-size: 40px;
 }
-.aboutbtm{
+.aboutbtm {
   padding-bottom: 10px;
   color: #222222;
 }
-.paw-4{
+.paw-2 {
   position: absolute;
   width: 40.48px;
   height: 37.82px;
-  left: 88.47px;
-  top: 850px;
-  background: url(Paw.png);
-  transform: matrix(-0.95, -0.32, -0.32, 0.95, 0, 0);
-  transform: rotate(25deg);
+  left: 1500px;
+  top: 1620px;
+}
 
-}
-.core-feature{
-  font-family: 'Fredoka';
-  line-height: 2px;
+.core {
   text-align: center;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
-  color: #222222;
-  padding-top: 20px;
+  line-height: 48px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.core{
-  padding-bottom: 10px;
-  padding-top: 10px;
+.core h1 {
   font-size: 40px;
-  color: #ff8210;
 }
-.core-feature p{
+.core p {
   color: #222222;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
 }
-.box2{
+.feature-box {
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.personalized1 {
+  width: 378.6px;
+  height: 292px;
+  background: #ffe6cf;
+  border-radius: 16px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.personalized1 h3 {
+  color: #222222;
+  margin-top: 40px;
+}
+.personalized1 p {
+  color: #222222;
+  margin-top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.compassion {
+  width: 378.6px;
+  height: 292px;
+  background: #ff8210;
+  border-radius: 16px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.compassion h3 {
+  color: white;
+  margin-top: 40px;
+}
+.compassion p {
+  color: white;
+  margin-top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.personalized2 {
+  width: 378.6px;
+  height: 292px;
+  background: #ffe6cf;
+  border-radius: 16px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.personalized2 h3 {
+  color: #222222;
+  margin-top: 40px;
+}
+.personalized2 p {
+  color: #222222;
+  margin-top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.section1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.choose {
+  text-align: center;
+  font-size: 40px;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+.home-safty {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.house {
+  width: 282px;
+  height: 230px;
+  border-radius: 16px;
+  background-color: #ffe6cf;
+  padding: 20px;
+}
+
+.house h3 {
+  margin-bottom: 10px;
+}
+
+.safety {
+  width: 282px;
+  height: 230px;
+  border-radius: 16px;
+  background-color: #ffe6cf;
+  padding: 20px;
+}
+
+.safety h3 {
+  margin-bottom: 10px;
+}
+
+.quality-client {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quality {
+  width: 282px;
+  height: 230px;
+  border-radius: 16px;
+  background-color: #ffe6cf;
+  padding: 20px;
+}
+
+.client {
+  width: 282px;
+  height: 230px;
+  border-radius: 16px;
+  background-color: #ffe6cf;
+  padding: 20px;
+}
+
+.consultation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.consultation button {
+  padding: 12px 24px;
+  border-radius: 24px;
+  background-color: #ff8210;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.paw-4 {
+  position: absolute;
+  left: calc(50% - 33.9px / 2 + 198.05px);
+  top: 8.23px;
+  width: 33.9px;
+  height: 31.67px;
+}
+.gallery {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  padding: 20px;
+}
+.gallery-text {
+  color: #222222;
+}
+.big-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 47px;
+  border-radius: 16px;
+}
+.pictures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 24px;
+  border-radius: 16px;
+}
+.section3 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.work {
   text-align: center;
 }
-.personalize1{
-  position: absolute;
-  width: 378.6px;
-  height: 292px;
-  left: 120px;
-  top: 1350px;
-  border-radius: 16px;
-  background-color: #ffe6cf;
-  padding: 148px 24px 24px 24px;
-
+.work h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 80px;
 }
-.compassion{
-  position: absolute;
-  width: 378.6px;
-  height: 292px;
-  left:  calc(50% - 378.6px/2 + 0.3px);
-  top: 1350px;
-  border-radius: 16px;
-  background: #ff8210;
-  padding: 148px 24px 24px 24px;
-
+.work p {
+  color: #000000;
+  font-size: 24px;
 }
-.personalize2{
-  position: absolute;
-  width: 378.6px;
-  height: 292px;
-  left: 1200px;
-  top: 1350px;
-  border-radius: 16px;
-  background-color: #ffe6cf;
-  padding: 148px 24px 24px 24px;
-
-}
-.personalize1 h3{
+.work-color {
   color: #222222;
 }
-.personalize1 p{
+.work-req {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 32px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 56px;
+}
+.contact p {
   color: #222222;
 }
-
-.compassion h3{
-  color: #fefefe;
-}
-.compassion p{
-  color: #fefefe;
-}
-.personalize2 h3{
+.consultation p {
   color: #222222;
 }
-.personalize2 p{
+.design p {
   color: #222222;
 }
-
+.agreement p {
+  color: #222222;
+}
