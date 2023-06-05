@@ -408,15 +408,132 @@ nav button {
   padding-right: 120px;
   padding-top: 56px;
 }
+.contact {
+  width: 500px;
+  height: 200px;
+}
 .contact p {
   color: #222222;
 }
-.consultation p {
+.consultation2 {
+  width: 500px;
+  height: 200px;
+}
+.consultation2 p {
   color: #222222;
+}
+.design {
+  width: 500px;
+  height: 200px;
 }
 .design p {
   color: #222222;
 }
+.agreement {
+  width: 500px;
+  height: 200px;
+}
 .agreement p {
   color: #222222;
+}
+.section4 {
+  background-color: #ffe6cf;
+}
+.contact-info {
+  text-align: center;
+}
+.contact-info h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+.contact-info p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+.form {
+  background-color: #ffe6cf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 256px;
+}
+
+.first2 {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding-bottom: 10px;
+}
+.align1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.align2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.last3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.name {
+  color: #222222;
+  display: flex;
+  flex-direction: column;
+}
+.namearea {
+  width: 225px;
+  height: 42px;
+  box-sizing: border-box;
+  border: 1px solid #ff8210;
+  border-radius: 8px;
+}
+.email {
+  color: #222222;
+}
+.emailarea {
+  width: 225px;
+  height: 42px;
+  box-sizing: border-box;
+  border: 1px solid #ff8210;
+  border-radius: 8px;
+}
+.subject {
+  color: #222222;
+}
+.subjectarea {
+  width: 481px;
+  height: 42px;
+  box-sizing: border-box;
+  border: 1px solid #ff8210;
+  border-radius: 8px;
+}
+.message {
+  color: #222222;
+}
+.messagearea {
+  width: 481px;
+  height: 200px;
+  box-sizing: border-box;
+  border: 1px solid #ff8210;
+  border-radius: 8px;
+}
+.submit {
+  padding: 12px 24px 12px 24px;
+  border-radius: 24px;
+  color: white;
+  background-color: #ff8210;
+  border: none;
+  font-size: 18px;
+  width: 225px;
+  height: 46px;
+  margin-top: 20px;
 }
