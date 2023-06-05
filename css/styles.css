@@ -120,6 +120,21 @@ nav button {
   line-height: 32px;
   padding: 80px 0;
 }
+.about {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #ff8210;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+.aboutbtm {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 10px;
+  color: #222222;
+}
 .box1 {
   display: flex;
   text-align: center;
@@ -129,8 +144,12 @@ nav button {
 }
 
 .vision p {
+  text-align: center;
   border-right: 1px solid #ff8210;
   padding: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   color: #222222;
 }
 
@@ -146,7 +165,11 @@ nav button {
 }
 
 .mission p {
+  text-align: center;
   padding: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   color: #222222;
 }
 .mission-img {
@@ -158,16 +181,7 @@ nav button {
   color: #222222;
   margin-top: 4px;
 }
-.about {
-  padding-bottom: 10px;
-  padding-top: 10px;
-  color: #ff8210;
-  font-size: 40px;
-}
-.aboutbtm {
-  padding-bottom: 10px;
-  color: #222222;
-}
+
 .paw-2 {
   position: absolute;
   width: 40.48px;
@@ -438,6 +452,7 @@ nav button {
 }
 .section4 {
   background-color: #ffe6cf;
+  padding: 120px;
 }
 .contact-info {
   text-align: center;
@@ -446,6 +461,7 @@ nav button {
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
+  padding-bottom: 20px;
 }
 .contact-info p {
   font-weight: 400;
@@ -458,7 +474,10 @@ nav button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 256px;
+  gap: 100px;
+}
+.form1 {
+  padding-top: 100px;
 }
 
 .first2 {
@@ -467,17 +486,15 @@ nav button {
   gap: 32px;
   padding-bottom: 10px;
 }
-.align1{
+.align1 {
   display: flex;
   flex-direction: column;
   gap: 10px;
-
 }
-.align2{
+.align2 {
   display: flex;
   flex-direction: column;
   gap: 10px;
-
 }
 .last3 {
   display: flex;
@@ -495,6 +512,7 @@ nav button {
   box-sizing: border-box;
   border: 1px solid #ff8210;
   border-radius: 8px;
+  color: #000000;
 }
 .email {
   color: #222222;
@@ -505,6 +523,7 @@ nav button {
   box-sizing: border-box;
   border: 1px solid #ff8210;
   border-radius: 8px;
+  color: #000000;
 }
 .subject {
   color: #222222;
@@ -515,6 +534,7 @@ nav button {
   box-sizing: border-box;
   border: 1px solid #ff8210;
   border-radius: 8px;
+  color: #000000;
 }
 .message {
   color: #222222;
@@ -525,6 +545,7 @@ nav button {
   box-sizing: border-box;
   border: 1px solid #ff8210;
   border-radius: 8px;
+  color: #000000;
 }
 .submit {
   padding: 12px 24px 12px 24px;
@@ -536,4 +557,103 @@ nav button {
   width: 225px;
   height: 46px;
   margin-top: 20px;
+}
+footer {
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 100px 20px 100px;
+}
+.ending {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 220px;
+}
+.footer-email {
+  width: 200px;
+  height: 40px;
+  background-color: #222222;
+  border: 1px solid #fefefe;
+  border-radius: 24px;
+  color: #ffffff;
+  padding: 20px;
+}
+.subscribe {
+  width: 128px;
+  height: 46px;
+  background-color: #ff8210;
+  color: #fefefe;
+  border-radius: 24px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+hr {
+  width: 1200px;
+  color: #fefefe;
+  margin-top: 38px;
+  margin-bottom: 32px;
+}
+.footer-area {
+  display: flex;
+  flex: start;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+.logo-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.explore {
+  padding-bottom: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.explore h3 {
+  line-height: 55px;
+}
+.explore p {
+  line-height: 18px;
+  color: #fefefe;
+}
+.service {
+  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.service h3 {
+  line-height: 55px;
+}
+.service p {
+  line-height: 18px;
+  color: #fefefe;
+}
+.contact-us {
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-us h3 {
+  line-height: 55px;
+}
+.contact-us p {
+  line-height: 18px;
+  color: #fefefe;
+}
+
+.copyright p {
+  color: #ffffff;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
