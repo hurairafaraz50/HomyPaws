@@ -135,6 +135,13 @@ nav button {
   padding-bottom: 10px;
   color: #222222;
 }
+.paw-2 {
+  position: absolute;
+  width: 40.48px;
+  height: 37.82px;
+  left: 88.47px;
+  top: 1160px;
+}
 .box1 {
   display: flex;
   text-align: center;
@@ -181,15 +188,6 @@ nav button {
   color: #222222;
   margin-top: 4px;
 }
-
-.paw-2 {
-  position: absolute;
-  width: 40.48px;
-  height: 37.82px;
-  left: 1500px;
-  top: 1620px;
-}
-
 .core {
   text-align: center;
   line-height: 48px;
@@ -197,13 +195,15 @@ nav button {
   padding-bottom: 50px;
 }
 .core h1 {
+  font-weight: 500;
   font-size: 40px;
+  line-height: 48px;
 }
 .core p {
   color: #222222;
+  font-weight: 400;
   font-size: 24px;
   line-height: 32px;
-  font-weight: 400;
 }
 .feature-box {
   display: flex;
@@ -274,15 +274,27 @@ nav button {
   padding-left: 24px;
   padding-right: 24px;
 }
+.paw3 {
+  position: absolute;
+  width: 40.48px;
+  height: 37.82px;
+  left: 1350px;
+  top: 1890px;
+}
 
 .section1 {
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-.choose {
+.choose h1 {
   text-align: center;
+  font-weight: 500;
   font-size: 40px;
+  line-height: 48px;
+}
+.primary-color {
+  color: #222222;
 }
 
 .boxes {
@@ -290,7 +302,7 @@ nav button {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .home-safty {
@@ -306,7 +318,9 @@ nav button {
   background-color: #ffe6cf;
   padding: 20px;
 }
-
+.house p {
+  color: #222222;
+}
 .house h3 {
   margin-bottom: 10px;
 }
@@ -318,9 +332,11 @@ nav button {
   background-color: #ffe6cf;
   padding: 20px;
 }
-
 .safety h3 {
   margin-bottom: 10px;
+}
+.safety p {
+  color: #222222;
 }
 
 .quality-client {
@@ -333,16 +349,28 @@ nav button {
   width: 282px;
   height: 230px;
   border-radius: 16px;
-  background-color: #ffe6cf;
+  background-color: #ff8210;
   padding: 20px;
 }
-
+.quality h3 {
+  color: #fefefe;
+  margin-bottom: 10px;
+}
+.quality p {
+  color: #fefefe;
+}
 .client {
   width: 282px;
   height: 230px;
   border-radius: 16px;
   background-color: #ffe6cf;
   padding: 20px;
+}
+.client h3 {
+  margin-bottom: 10px;
+}
+.client p {
+  color: #222222;
 }
 
 .consultation {
@@ -368,10 +396,10 @@ nav button {
   width: 33.9px;
   height: 31.67px;
 }
-.gallery {
+.gallery h1 {
   text-align: center;
-  font-size: 40px;
   font-weight: 500;
+  font-size: 40px;
   line-height: 48px;
   padding: 20px;
 }
@@ -385,6 +413,14 @@ nav button {
   margin-top: 47px;
   border-radius: 16px;
 }
+.paw-5 {
+  position: absolute;
+  width: 40.48px;
+  height: 37.82px;
+  left: 49%;
+  top: 3128px;
+  transform: rotate(25deg);
+}
 .pictures {
   display: flex;
   align-items: center;
@@ -394,8 +430,8 @@ nav button {
   border-radius: 16px;
 }
 .section3 {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .work {
   text-align: center;
@@ -452,7 +488,7 @@ nav button {
 }
 .section4 {
   background-color: #ffe6cf;
-  padding: 120px;
+  padding: 80px 120px 100px 120px;
 }
 .contact-info {
   text-align: center;
